@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacetn</title>
+    <link rel="icon" href="Imagenes\favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="common-styles.css">
+    <link rel="stylesheet" href="menudesplegable.css">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 1000px;
+            width: 1200px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+            gap: 15px; /* Espacio entre las imágenes */
+            width: calc(80% - 100px); /* Ancho total de la galería (restando 30px para el espacio del borde izquierdo) */
+            margin-top: calc(10%);
+            margin-left: 30px; /* Espacio del borde izquierdo */
+            padding: 0 20px; /* Agrega un espaciado lateral para centrar la grilla */
+            margin-bottom: calc(100%);
+        }
+        .gallery img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            max-height: 150px; /* Altura máxima de la imagen */
+        }
+        .game-name {
+            margin-top: 8px;
+            text-align: center; /* Alinea el texto al centro */
+            font-weight: bold;
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+            transition: color 0.1s ease;
+        }
+
+        .game-name:hover {
+            color: #ff2a2a; /* Cambia el color del texto al pasar el cursor sobre él */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-texts">
+            <a href="index.html" class="header-text">INICIO</a>
+            <a href="juegospc.html" class="header-text">JUEGOS PC</a>
+            <div class="dropdown">
+                <a href="juegosandroid.html" class="header-text">JUEGOS ANDROID</a>
+                <div class="submenu">
+                    <a href="Cromos.html">Cromos</a>
+                    <a href="Ruleta.html">Ruleta</a>
+                    <a href="pro.html">Salon de la Fama</a>
+                </div>
+            </div>
+            <div class="dropdowns">
+                <a href="Tincho.html" class="header-text" id="header-text">PROGRAMAS/EMULADORES</a>
+                <div class="submenus">
+                    <a href="Estadisticas_de_Transmisiones.html">Estadisticas de Transmisiones</a>
+                    <a href="Novedades.html">Novedades</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="background1">
+        <div class="gallery">
+            <div class="game">
+                <a href="fnaf1.html"><img src="juegos/fnaf1.jpg" alt="Juego 1"></a>
+                <div><a href="carpeta/fnaf1.html" class="game-name">Five Nights At Freddy 1</a></div>
+            </div>
+            <div class="game">
+                <a href="carpeta/fnaf2.html"><img src="juegos/fnaf2.jpg" alt="Juego 1"></a>
+                <div><a href="carpeta/fnaf2.html" class="game-name">Five Nights At Freddy 2</a></div>
+            </div>
+            <div class="game">
+                <a href="carpeta/fnaf3.html"><img src="juegos/fnaf3.jpg" alt="Juego 1"></a>
+                <div><a href="carpeta/fnaf3.html" class="game-name">Five Nights At Freddy 3</a></div>
+            </div>
+            <div class="game">
+                <a href="carpeta/fnaf4.html"><img src="juegos/fnaf4.jpg" alt="Juego 1"></a>
+                <div><a href="carpeta/fnaf4.html" class="game-name">Five Nights At Freddy 4</a></div>
+            </div>
+            <div class="game">
+                <a href="enlace-del-juego-1"><img src="juegos/limbo.webp" alt="Juego 1"></a>
+                <div><a href="carpeta/fnaf1.html" class="game-name">Limbo</a></div>
+            </div>
+            <div class="game">
+                <a href="enlace-del-juego-1"><img src="juegos/fnaf sister location.webp" alt="Juego 1"></a>
+                <div><a href="carpeta/fnaf1.html" class="game-name">Five Nights At Freddy Sister Location</a></div>
+            </div>
+            <div class="game">
+                <a href="carpeta/fnaf4.html"><img src="juegos/papers please.webp" alt="Juego 1"></a>
+                <div><a href="carpeta/fnaf4.html" class="game-name">Five Nights At Freddy 4</a></div>
+            </div>
+            <div class="game">
+                <a href="enlace-del-juego-1"><img src="juegos/craft the world.webp" alt="Juego 1"></a>
+                <div><a href="carpeta/fnaf1.html" class="game-name">Five Nights At Freddy 1</a></div>
+            </div>
+            <div class="game">
+                <a href="enlace-del-juego-1"><img src="juegos/only up.webp" alt="Juego 1"></a>
+                <div><a href="carpeta/fnaf1.html" class="game-name">Five Nights At Freddy 1</a></div>
+            </div>
+            <!-- Repite lo mismo para las demás imágenes -->
+        </div>
+    </div>
+
+    
+    
+    <script src="menudesplegable.js" defer></script>
+    <script src="scriptfotos.js" defer></script>
+
+</body>
+</html>
