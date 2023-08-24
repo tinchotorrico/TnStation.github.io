@@ -1,9 +1,9 @@
 .submenu {
     display: none;
-    width: 160px;
+    width: calc(20%);
     position: absolute;
-    top: 100%;
-    left: 272px;
+    top: calc(100%);
+    left: calc(35%);
     background-color: #b8b8b8;
     opacity: 1;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -40,10 +40,10 @@
 
 .submenus {
   display: none;
-  width: 95px;
+  width: calc(33%);
   position: absolute;
-  top: 100%;
-  left: 385px; /* Colocar el menú justo debajo del enlace TINCHO */
+  top: calc(100%);
+  left: calc(62.3%); /* Colocar el menú justo debajo del enlace TINCHO */
   background-color: #b8b8b8;
   opacity: 1;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);

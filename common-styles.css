@@ -53,15 +53,15 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 0px;
-    margin-left: 22%;
-    gap: 2px; /* Espacio de 30px entre los textos */
+    margin-top: calc(0%);
+    margin-left: calc(22%);
+    gap: calc(2px); /* Espacio de 30px entre los textos */
     text-decoration: none;
 }
 
 .header-text {
     margin: 0 18px;
-    font-size: 20px;
+    font-size: calc(20px);
     color: white;
     cursor: pointer;
     text-decoration: none;
