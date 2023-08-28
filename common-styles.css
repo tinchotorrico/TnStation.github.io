@@ -148,9 +148,9 @@ padding: 10px; /* Opcional: añadimos un espacio interno de 10px para que el tex
     
     position: fixed;
     margin-top: calc(1%);
-    margin-left: calc(1%);
-    width: 330px; /* Cambia este valor según tus necesidades */
-    height: auto; /* Esto mantendrá la proporción de aspecto */
+    margin-left: calc(2.5%);
+    width: calc(24%); /* Cambia este valor según tus necesidades */
+    height: calc(10%); /* Esto mantendrá la proporción de aspecto */
     z-index: calc(1000);
     animation: float 3s infinite alternate;
 }
